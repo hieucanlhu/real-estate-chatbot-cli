@@ -1,0 +1,15 @@
+Bài tập: Tính tổng các số từ 1 đến n
+
+Yêu cầu:
+1. Viết chương trình Python nhận vào một số nguyên dương n
+2. Tính tổng các số từ 1 đến n
+3. In ra kết quả
+
+Ví dụ:
+- Input: n = 5
+- Output: 15 (vì 1 + 2 + 3 + 4 + 5 = 15)
+
+- Input: n = 10
+- Output: 55
+
+Gợi ý: Có thể sử dụng vòng lặp hoặc công thức toán học.

@@ -1,0 +1,15 @@
+Bài tập: Quick Sort Algorithm
+
+Yêu cầu:
+1. Giải thích thuật toán Quick Sort
+2. Implement thuật toán Quick Sort bằng Python
+3. Phân tích độ phức tạp:
+   - Time complexity (best case, average case, worst case)
+   - Space complexity
+4. So sánh với Merge Sort về ưu điểm và nhược điểm
+5. Đưa ra ví dụ minh họa với mảng [3, 6, 8, 10, 1, 2, 1]
+
+Yêu cầu về code:
+- Code phải có comments giải thích
+- Cung cấp cả recursive và iterative version nếu được
+- Có hàm test với nhiều test cases
