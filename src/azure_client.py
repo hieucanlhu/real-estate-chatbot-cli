@@ -46,3 +46,17 @@ class AzureOpenAIClient:
         except Exception as e:
             logging.error(f"Lỗi khi tóm tắt hội thoại: {e}")
             return "Không thể tóm tắt hội thoại này."
+    
+    def solve_homework(self, homework_content):
+        """
+        Giải bài tập và cung cấp giải thích chi tiết
+        """
+        try:
+            messages = [
+                {"role": "system", "content": settings.HOMEWORK_ASSISTANT_PROMPT},
+                {"role": "user", "content": homework_content}
+            ]
+            return self.chat_completion(messages, temperature=0.7)
+        except Exception as e:
+            logging.error(f"Lỗi khi giải bài tập: {e}")
+            return "Xin lỗi, tôi gặp sự cố khi giải bài tập này. Vui lòng thử lại sau."

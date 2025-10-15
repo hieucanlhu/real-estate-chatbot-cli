@@ -1,0 +1,16 @@
+Bài tập: Kiểm tra số nguyên tố
+
+Yêu cầu:
+1. Viết hàm is_prime(n) kiểm tra một số có phải là số nguyên tố hay không
+2. Số nguyên tố là số tự nhiên lớn hơn 1, chỉ chia hết cho 1 và chính nó
+3. Hàm trả về True nếu n là số nguyên tố, False nếu không phải
+
+Test cases:
+- is_prime(2) → True
+- is_prime(17) → True  
+- is_prime(4) → False
+- is_prime(1) → False
+
+Yêu cầu thêm:
+- Tối ưu thuật toán để chạy nhanh với số lớn
+- Giải thích độ phức tạp thuật toán
